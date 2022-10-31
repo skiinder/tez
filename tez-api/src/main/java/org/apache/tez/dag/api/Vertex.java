@@ -37,8 +37,8 @@ import org.apache.tez.dag.api.VertexGroup.GroupInfo;
 import org.apache.tez.runtime.api.LogicalIOProcessor;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 /**
  * Defines a vertex in the DAG. It represents the application logic that 

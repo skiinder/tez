@@ -83,7 +83,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.google.common.collect.HashMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.HashMultimap;
 
 
 @SuppressWarnings("deprecation")

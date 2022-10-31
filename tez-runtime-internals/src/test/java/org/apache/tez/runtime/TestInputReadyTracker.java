@@ -38,8 +38,8 @@ import org.apache.tez.runtime.api.MergedInputContext;
 import org.apache.tez.runtime.api.impl.TezMergedInputContextImpl;
 import org.junit.Test;
 
-import com.google.common.collect.Lists;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 
 public class TestInputReadyTracker {

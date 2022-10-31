@@ -34,7 +34,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.tez.common.TezTaskUmbilicalProtocol;
 import org.apache.tez.common.counters.TezCounters;

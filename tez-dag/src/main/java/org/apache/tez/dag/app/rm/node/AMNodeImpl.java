@@ -47,8 +47,8 @@ import org.apache.tez.dag.app.rm.container.AMContainerEventNodeFailed;
 import org.apache.tez.dag.app.rm.container.AMContainerEventType;
 import org.apache.tez.dag.records.TezTaskAttemptID;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 public class AMNodeImpl implements AMNode {
 

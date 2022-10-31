@@ -21,7 +21,7 @@ package org.apache.tez.dag.api.client;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 import org.apache.hadoop.classification.InterfaceAudience.Public;
 import org.apache.tez.common.counters.TezCounters;

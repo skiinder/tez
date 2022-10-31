@@ -18,7 +18,7 @@ import java.net.UnknownHostException;
 import java.util.List;
 import java.util.Set;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.common.Preconditions;
 
 import org.apache.hadoop.conf.Configuration;

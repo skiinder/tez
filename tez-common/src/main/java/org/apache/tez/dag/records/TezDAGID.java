@@ -27,8 +27,8 @@ import org.apache.hadoop.yarn.api.records.ApplicationId;
 
 import org.apache.tez.util.FastNumberFormat;
 
-import com.google.common.collect.Interner;
-import com.google.common.collect.Interners;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interner;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interners;
 
 /**
  * TezDAGID represents the immutable and unique identifier for

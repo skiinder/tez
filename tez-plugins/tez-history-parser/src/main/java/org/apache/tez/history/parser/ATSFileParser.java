@@ -19,7 +19,7 @@
 package org.apache.tez.history.parser;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 import org.apache.commons.io.IOUtils;
 import org.apache.tez.dag.api.TezException;
 import org.apache.tez.common.io.NonSyncByteArrayOutputStream;

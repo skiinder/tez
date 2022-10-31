@@ -28,7 +28,7 @@ import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
 
-import com.google.common.io.Files;
+import org.apache.hadoop.thirdparty.com.google.common.io.Files;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -71,8 +71,8 @@ import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.google.common.collect.HashMultimap;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.HashMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 
 public class TestMROutput {

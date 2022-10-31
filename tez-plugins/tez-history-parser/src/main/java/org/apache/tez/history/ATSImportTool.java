@@ -18,10 +18,10 @@
 
 package org.apache.tez.history;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 import org.apache.tez.common.Preconditions;
-import com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientHandlerException;
 import com.sun.jersey.api.client.ClientResponse;

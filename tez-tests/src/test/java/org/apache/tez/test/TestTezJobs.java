@@ -41,7 +41,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;

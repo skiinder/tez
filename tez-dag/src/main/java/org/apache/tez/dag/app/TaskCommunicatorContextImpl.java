@@ -21,10 +21,10 @@ import java.util.Set;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.Objects;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
 import org.apache.hadoop.classification.InterfaceAudience;
 import org.apache.hadoop.security.Credentials;
 import org.apache.hadoop.yarn.api.records.ApplicationAttemptId;

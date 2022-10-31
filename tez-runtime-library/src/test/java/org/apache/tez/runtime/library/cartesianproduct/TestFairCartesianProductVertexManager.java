@@ -17,7 +17,7 @@
  */
 package org.apache.tez.runtime.library.cartesianproduct;
 
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 import org.apache.tez.dag.api.EdgeManagerPluginDescriptor;

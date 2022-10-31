@@ -24,8 +24,8 @@ import java.util.Set;
 
 import org.apache.hadoop.classification.InterfaceAudience.Public;
 
-import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 /**
  * Represents a virtual collection of vertices whose members can be treated as a single 

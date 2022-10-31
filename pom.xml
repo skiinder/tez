@@ -57,7 +57,6 @@
     <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>
 
     <clover.license>${user.home}/clover.license</clover.license>
-    <guava.version>31.1-jre</guava.version>
     <hadoop.version>3.3.1</hadoop.version>
     <netty.version>4.1.72.Final</netty.version>
     <pig.version>0.13.0</pig.version>
@@ -616,6 +615,12 @@
         <version>${hadoop.version}</version>
       </dependency>
       <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>31.1-jre</version>
+        <scope>provided</scope>
+      </dependency>
+      <dependency>
         <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-mapreduce-client-shuffle</artifactId>
         <scope>provided</scope>
@@ -727,11 +732,6 @@
        <groupId>com.google.protobuf</groupId>
        <artifactId>protobuf-java</artifactId>
        <version>${protobuf.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.google.guava</groupId>
-        <artifactId>guava</artifactId>
-        <version>${guava.version}</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.jettison</groupId>

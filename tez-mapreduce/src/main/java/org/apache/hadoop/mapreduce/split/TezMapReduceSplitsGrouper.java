@@ -24,8 +24,8 @@ import java.util.Objects;
 
 import javax.annotation.Nullable;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import org.apache.tez.mapreduce.grouper.GroupedSplitContainer;
 import org.apache.tez.mapreduce.grouper.MapReduceSplitContainer;
 import org.apache.tez.mapreduce.grouper.SplitContainer;

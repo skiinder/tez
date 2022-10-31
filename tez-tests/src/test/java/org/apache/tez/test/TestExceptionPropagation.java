@@ -93,7 +93,7 @@ import org.apache.tez.test.TestAMRecovery.DoNothingProcessor;
 import org.apache.tez.test.dag.MultiAttemptDAG.NoOpInput;
 import org.junit.Test;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class TestExceptionPropagation {
 

@@ -35,7 +35,7 @@ import org.apache.tez.dag.api.client.DAGStatus;
 import org.apache.tez.dag.api.client.Progress;
 import org.apache.tez.mapreduce.hadoop.MultiStageMRConfigUtil;
 
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 
 public class DAGJobStatus extends JobStatus {
 

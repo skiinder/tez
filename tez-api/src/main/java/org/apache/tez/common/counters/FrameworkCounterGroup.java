@@ -30,8 +30,8 @@ import java.util.Objects;
 import org.apache.hadoop.classification.InterfaceAudience;
 import org.apache.hadoop.io.WritableUtils;
 
-import com.google.common.collect.AbstractIterator;
-import com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.AbstractIterator;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
 
 /**
  * An abstract class to provide common implementation for the framework

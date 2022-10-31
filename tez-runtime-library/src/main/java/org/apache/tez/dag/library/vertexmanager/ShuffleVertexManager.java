@@ -19,7 +19,7 @@
 package org.apache.tez.dag.library.vertexmanager;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 

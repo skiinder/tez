@@ -37,7 +37,7 @@ import javax.annotation.Nullable;
 import javax.crypto.SecretKey;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import com.google.protobuf.ByteString;
 
 import org.apache.hadoop.conf.Configuration;

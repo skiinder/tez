@@ -23,7 +23,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.dag.app.dag.DAG;
 import org.apache.tez.common.ContainerSignatureMatcher;
 import org.slf4j.Logger;

@@ -19,10 +19,10 @@
 package org.apache.tez.dag.library.vertexmanager;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
-import com.google.common.collect.UnmodifiableIterator;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.UnmodifiableIterator;
 
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import org.apache.tez.common.TezUtils;
 import org.apache.tez.dag.api.EdgeManagerPluginDescriptor;
 import org.apache.tez.dag.api.EdgeProperty;

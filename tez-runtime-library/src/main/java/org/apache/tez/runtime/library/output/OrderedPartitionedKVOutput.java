@@ -27,8 +27,8 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.zip.Deflater;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.tez.common.TezUtils;
 import org.apache.tez.runtime.library.conf.OrderedPartitionedKVOutputConfig.SorterImpl;

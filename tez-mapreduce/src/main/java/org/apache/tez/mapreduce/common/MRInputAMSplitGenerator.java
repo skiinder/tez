@@ -21,7 +21,7 @@ package org.apache.tez.mapreduce.common;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.tez.mapreduce.grouper.TezSplitGrouper;
 import org.slf4j.Logger;

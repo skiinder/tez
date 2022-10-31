@@ -132,7 +132,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 public class TestMRRJobsDAGApi {
 

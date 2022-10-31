@@ -17,7 +17,7 @@
  */
 package org.apache.tez.runtime.library.cartesianproduct;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.common.Preconditions;
 import com.google.protobuf.ByteString;
 import org.apache.tez.dag.api.EdgeManagerPluginDescriptor;

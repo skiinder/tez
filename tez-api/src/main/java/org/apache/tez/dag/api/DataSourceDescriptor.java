@@ -35,7 +35,7 @@ import org.apache.tez.dag.api.TaskLocationHint;
 import org.apache.tez.runtime.api.InputInitializer;
 import org.apache.tez.runtime.api.events.InputDataInformationEvent;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 /**
  * Defines the input and input initializer for a data source 

@@ -33,8 +33,8 @@ import org.apache.tez.dag.recovery.records.RecoveryProtos;
 import org.apache.tez.dag.recovery.records.RecoveryProtos.SummaryEventProto;
 import org.apache.tez.dag.recovery.records.RecoveryProtos.VertexGroupCommitFinishedProto;
 
-import com.google.common.base.Function;
-import com.google.common.collect.Collections2;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Collections2;
 
 public class VertexGroupCommitFinishedEvent implements HistoryEvent, SummaryEvent {
 

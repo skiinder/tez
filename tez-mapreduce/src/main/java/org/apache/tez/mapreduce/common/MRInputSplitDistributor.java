@@ -44,7 +44,7 @@ import org.apache.tez.runtime.api.events.InputInitializerEvent;
 import org.apache.tez.runtime.api.events.InputUpdatePayloadEvent;
 import org.apache.tez.util.StopWatch;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 /**
  * Implements an {@link InputInitializer} that distributes Map Reduce 

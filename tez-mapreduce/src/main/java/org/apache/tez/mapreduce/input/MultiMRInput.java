@@ -30,9 +30,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-import com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
 
 import org.slf4j.Logger;

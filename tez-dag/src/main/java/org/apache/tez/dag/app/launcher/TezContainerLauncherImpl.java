@@ -66,7 +66,7 @@ import org.apache.hadoop.yarn.util.Records;
 import org.apache.tez.dag.api.TezConfiguration;
 import org.apache.tez.dag.api.TezUncheckedException;
 
-import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import org.apache.hadoop.thirdparty.com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 
 // TODO See what part of this lifecycle and state management can be simplified.

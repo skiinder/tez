@@ -41,7 +41,7 @@ import org.apache.tez.dag.recovery.records.RecoveryProtos.TezEventProto;
 import org.apache.tez.dag.recovery.records.RecoveryProtos.VertexInitializedProto;
 import org.apache.tez.runtime.api.impl.TezEvent;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class VertexInitializedEvent implements HistoryEvent, VertexIDAware {
 

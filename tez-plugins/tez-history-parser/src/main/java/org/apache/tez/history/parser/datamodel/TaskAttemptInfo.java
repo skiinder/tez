@@ -19,10 +19,10 @@
 package org.apache.tez.history.parser.datamodel;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.base.Strings;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Ordering;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Ordering;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

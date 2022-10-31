@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 
 import org.apache.tez.common.TezUtils;
 import org.apache.tez.serviceplugins.api.DagInfo;

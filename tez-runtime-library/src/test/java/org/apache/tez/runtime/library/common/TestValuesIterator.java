@@ -1,9 +1,9 @@
 package org.apache.tez.runtime.library.common;
 
-import com.google.common.collect.ImmutableListMultimap;
-import com.google.common.collect.LinkedListMultimap;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.ImmutableListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.LinkedListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.ListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import java.nio.ByteBuffer;
 

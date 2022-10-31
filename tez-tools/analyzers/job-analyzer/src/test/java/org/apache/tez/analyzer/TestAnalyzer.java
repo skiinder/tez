@@ -67,8 +67,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class TestAnalyzer {
   private static final Logger LOG = LoggerFactory.getLogger(TestAnalyzer.class);

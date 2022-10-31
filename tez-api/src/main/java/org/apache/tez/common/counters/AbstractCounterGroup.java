@@ -30,7 +30,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.WritableUtils;
 import org.apache.hadoop.util.StringInterner;
 
-import com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
 
 /**
  * An abstract class to provide common implementation of the

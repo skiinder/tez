@@ -21,7 +21,7 @@ package org.apache.tez.examples;
 import java.io.IOException;
 import java.util.Set;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.dag.api.Vertex.VertexExecutionContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,7 +52,7 @@ import org.apache.tez.runtime.library.partitioner.HashPartitioner;
 import org.apache.tez.runtime.library.processor.SimpleProcessor;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 public class JoinValidate extends TezExampleBase {
   private static final Logger LOG = LoggerFactory.getLogger(JoinValidate.class);

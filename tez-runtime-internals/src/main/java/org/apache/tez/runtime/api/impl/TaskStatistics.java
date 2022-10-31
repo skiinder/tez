@@ -28,7 +28,7 @@ import org.apache.hadoop.io.Writable;
 
 import org.apache.tez.util.StringInterner;
 
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 public class TaskStatistics implements Writable {
   // The memory usage of this is minimal (<10MB for 10K tasks x 10 inputs)

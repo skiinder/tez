@@ -42,10 +42,10 @@ import org.apache.tez.runtime.api.OutputContext;
 import org.apache.tez.runtime.api.ProcessorContext;
 import org.apache.tez.runtime.api.TaskContext;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
 
 // Not calling this a MemoryManager explicitly. Not yet anyway.
 @Private

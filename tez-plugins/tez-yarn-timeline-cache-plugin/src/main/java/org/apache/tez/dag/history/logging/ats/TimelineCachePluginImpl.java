@@ -39,7 +39,7 @@ import org.apache.tez.dag.records.TezVertexID;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 public class TimelineCachePluginImpl extends TimelineEntityGroupPlugin implements Configurable {
   private static final Logger LOG = LoggerFactory.getLogger(TimelineCachePluginImpl.class);

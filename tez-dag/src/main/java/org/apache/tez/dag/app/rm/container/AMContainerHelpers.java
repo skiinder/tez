@@ -54,7 +54,7 @@ import org.apache.tez.dag.app.AppContext;
 import org.apache.tez.dag.records.TezDAGID;
 import org.apache.tez.dag.utils.TezRuntimeChildJVM;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 public class AMContainerHelpers {
 

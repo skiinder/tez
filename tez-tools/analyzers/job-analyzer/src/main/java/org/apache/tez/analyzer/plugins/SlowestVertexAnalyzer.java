@@ -20,7 +20,7 @@ package org.apache.tez.analyzer.plugins;
 
 import com.codahale.metrics.Histogram;
 import com.codahale.metrics.MetricRegistry;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.util.ToolRunner;

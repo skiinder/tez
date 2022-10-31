@@ -41,7 +41,7 @@ import org.apache.tez.dag.history.HistoryEventHandler;
 import org.apache.tez.dag.records.TezDAGID;
 import org.apache.tez.hadoop.shim.HadoopShim;
 
-import com.google.common.util.concurrent.ListeningExecutorService;
+import org.apache.hadoop.thirdparty.com.google.common.util.concurrent.ListeningExecutorService;
 
 
 /**

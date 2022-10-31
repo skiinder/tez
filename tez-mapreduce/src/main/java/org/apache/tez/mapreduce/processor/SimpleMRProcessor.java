@@ -30,7 +30,7 @@ import org.apache.tez.runtime.api.Processor;
 import org.apache.tez.runtime.api.ProcessorContext;
 import org.apache.tez.runtime.library.processor.SimpleProcessor;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 /**
  * A {@link SimpleProcessor} that provides Map Reduce specific post

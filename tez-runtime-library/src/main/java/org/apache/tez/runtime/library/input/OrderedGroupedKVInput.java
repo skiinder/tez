@@ -27,7 +27,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.common.TezUtils;
 import org.apache.tez.runtime.api.ProgressFailedException;
 import org.apache.tez.runtime.library.api.IOInterruptedException;

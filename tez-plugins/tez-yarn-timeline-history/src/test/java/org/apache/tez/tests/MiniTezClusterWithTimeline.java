@@ -56,8 +56,8 @@ import org.apache.tez.dag.app.DAGAppMaster;
 import org.apache.tez.mapreduce.hadoop.MRConfig;
 import org.apache.tez.mapreduce.hadoop.MRJobConfig;
 
-import com.google.common.base.Predicate;
-import com.google.common.collect.Collections2;
+import org.apache.hadoop.thirdparty.com.google.common.base.Predicate;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Collections2;
 
 /**
  * Configures and starts the Tez-specific components in the YARN cluster.

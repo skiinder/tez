@@ -14,7 +14,7 @@
 
 package org.apache.tez.dag.app.launcher;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 import org.apache.tez.dag.app.PluginWrapperTestHelpers;
 import org.apache.tez.serviceplugins.api.ContainerLauncher;
 import org.junit.Test;

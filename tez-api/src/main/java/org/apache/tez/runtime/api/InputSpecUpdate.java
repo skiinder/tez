@@ -25,7 +25,7 @@ import org.apache.hadoop.classification.InterfaceAudience.Public;
 import org.apache.hadoop.classification.InterfaceStability.Unstable;
 import org.apache.tez.runtime.api.events.InputDataInformationEvent;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 /**
  * Update Input specs for Inputs running in a task. Allows setting the number of physical

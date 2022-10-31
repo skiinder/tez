@@ -55,7 +55,7 @@ import org.apache.tez.dag.history.events.DAGRecoveredEvent;
 import org.apache.tez.dag.history.logging.EntityTypes;
 import org.apache.tez.dag.records.TezDAGID;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 public class ATSV15HistoryLoggingService extends HistoryLoggingService {
 

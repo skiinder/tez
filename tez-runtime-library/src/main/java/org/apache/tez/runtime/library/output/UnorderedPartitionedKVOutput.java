@@ -26,7 +26,7 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 import org.apache.tez.common.TezUtils;
 import org.apache.tez.runtime.library.common.shuffle.ShuffleUtils;

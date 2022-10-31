@@ -36,7 +36,7 @@ import org.apache.tez.dag.recovery.records.RecoveryProtos.RootInputSpecUpdatePro
 import org.apache.tez.dag.recovery.records.RecoveryProtos.VertexConfigurationDoneProto;
 import org.apache.tez.runtime.api.InputSpecUpdate;
 
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 public class VertexConfigurationDoneEvent implements HistoryEvent, VertexIDAware {
 

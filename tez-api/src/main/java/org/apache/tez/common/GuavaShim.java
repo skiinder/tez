@@ -17,7 +17,7 @@
  */
 package org.apache.tez.common;
 
-import com.google.common.util.concurrent.MoreExecutors;
+import org.apache.hadoop.thirdparty.com.google.common.util.concurrent.MoreExecutors;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

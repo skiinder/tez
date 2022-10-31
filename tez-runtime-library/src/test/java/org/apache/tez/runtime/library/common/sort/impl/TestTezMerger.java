@@ -19,11 +19,11 @@
 package org.apache.tez.runtime.library.common.sort.impl;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.LinkedListMultimap;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.google.common.collect.TreeMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.LinkedListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.ListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.TreeMultimap;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;

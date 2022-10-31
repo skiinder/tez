@@ -18,10 +18,10 @@
 
 package org.apache.tez.analyzer.plugins;
 
-import com.google.common.base.Predicate;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Multimap;
+import org.apache.hadoop.thirdparty.com.google.common.base.Predicate;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Multimap;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

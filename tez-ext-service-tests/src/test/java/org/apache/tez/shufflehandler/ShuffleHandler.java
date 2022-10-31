@@ -47,7 +47,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Pattern;
 
-import com.google.common.base.Charsets;
+import org.apache.hadoop.thirdparty.com.google.common.base.Charsets;
 
 import org.apache.tez.common.Preconditions;
 import org.apache.hadoop.conf.Configuration;

@@ -41,7 +41,7 @@ import java.util.Vector;
 import java.util.Map.Entry;
 import java.util.Objects;
 
-import com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.tez.common.JavaOptsChecker;
@@ -110,10 +110,10 @@ import org.apache.tez.dag.api.records.DAGProtos.ConfigurationProto;
 import org.apache.tez.dag.api.records.DAGProtos.DAGPlan;
 import org.apache.tez.dag.api.records.DAGProtos.PlanKeyValuePair;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.base.Function;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 @Private
 public class TezClientUtils {

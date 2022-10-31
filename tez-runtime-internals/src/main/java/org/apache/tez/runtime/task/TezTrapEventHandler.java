@@ -15,7 +15,7 @@
 
 package org.apache.tez.runtime.task;
 
-import com.google.common.base.Preconditions;
+import org.apache.hadoop.thirdparty.com.google.common.base.Preconditions;
 import org.apache.hadoop.yarn.event.EventHandler;
 import org.apache.tez.runtime.api.OutputContext;
 import org.apache.tez.runtime.api.impl.TezEvent;

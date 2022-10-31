@@ -29,10 +29,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import com.google.common.base.Function;
+import org.apache.hadoop.thirdparty.com.google.common.base.Function;
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
 
 import org.apache.tez.runtime.api.InputContext;

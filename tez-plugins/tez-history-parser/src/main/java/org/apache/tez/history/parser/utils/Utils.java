@@ -18,8 +18,8 @@
 
 package org.apache.tez.history.parser.utils;
 
-import com.google.common.base.Strings;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import org.apache.hadoop.classification.InterfaceAudience;
 import org.apache.log4j.ConsoleAppender;

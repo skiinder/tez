@@ -33,7 +33,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.tez.common.ReflectionUtils;
 import org.apache.tez.dag.api.TezException;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 @InterfaceAudience.Private
 public class RelocalizationUtils {

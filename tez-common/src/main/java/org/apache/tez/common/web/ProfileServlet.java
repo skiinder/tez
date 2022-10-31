@@ -17,7 +17,7 @@
  */
 package org.apache.tez.common.web;
 
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 
 import org.apache.hadoop.http.HttpServer2;
 import org.apache.tez.common.TezUtilsInternal;

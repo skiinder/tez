@@ -19,15 +19,15 @@
 package org.apache.tez.history.parser.datamodel;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.base.Predicate;
-import com.google.common.collect.Iterables;
-import com.google.common.collect.LinkedHashMultimap;
-import com.google.common.collect.LinkedListMultimap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Multimap;
-import com.google.common.collect.Multimaps;
-import com.google.common.collect.Ordering;
+import org.apache.hadoop.thirdparty.com.google.common.base.Predicate;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.LinkedHashMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.LinkedListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Multimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Multimaps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Ordering;
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;
 import org.apache.commons.logging.Log;

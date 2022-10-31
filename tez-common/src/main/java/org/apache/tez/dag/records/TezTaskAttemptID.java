@@ -26,8 +26,8 @@ import java.util.Objects;
 import org.apache.hadoop.classification.InterfaceAudience;
 import org.apache.hadoop.classification.InterfaceStability;
 
-import com.google.common.collect.Interner;
-import com.google.common.collect.Interners;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interner;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interners;
 
 /**
  * TezTaskAttemptID represents the immutable and unique identifier for

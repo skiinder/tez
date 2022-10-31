@@ -32,7 +32,7 @@ import org.apache.tez.runtime.api.events.DataMovementEvent;
 import org.apache.tez.runtime.api.events.InputReadErrorEvent;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class ScatterGatherEdgeManager extends EdgeManagerPluginOnDemand {
   

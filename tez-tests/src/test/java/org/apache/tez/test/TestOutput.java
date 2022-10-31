@@ -34,7 +34,7 @@ import org.apache.tez.runtime.api.OutputContext;
 import org.apache.tez.runtime.api.Writer;
 import org.apache.tez.runtime.api.events.DataMovementEvent;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class TestOutput extends AbstractLogicalOutput {
   private static final Logger LOG = LoggerFactory.getLogger(TestOutput.class);

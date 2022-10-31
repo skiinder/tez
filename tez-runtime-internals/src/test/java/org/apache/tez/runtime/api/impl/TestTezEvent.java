@@ -39,8 +39,8 @@ import org.apache.tez.runtime.api.impl.EventMetaData.EventProducerConsumerType;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.google.common.io.ByteArrayDataOutput;
-import com.google.common.io.ByteStreams;
+import org.apache.hadoop.thirdparty.com.google.common.io.ByteArrayDataOutput;
+import org.apache.hadoop.thirdparty.com.google.common.io.ByteStreams;
 
 public class TestTezEvent {
 

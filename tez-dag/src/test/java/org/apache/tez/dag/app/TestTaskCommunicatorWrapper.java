@@ -28,7 +28,7 @@
 
 package org.apache.tez.dag.app;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 import org.apache.tez.serviceplugins.api.TaskCommunicator;
 import org.junit.Test;
 

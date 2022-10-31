@@ -33,8 +33,8 @@ import org.apache.hadoop.yarn.api.records.ApplicationAccessType;
 import org.apache.tez.dag.api.TezConfiguration;
 import org.apache.tez.dag.api.records.DAGProtos.ACLInfo;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 /**
  * Class to manage ACLs for the Tez AM and DAGs and provides functionality to check whether

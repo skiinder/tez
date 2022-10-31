@@ -17,7 +17,7 @@
  */
 package org.apache.tez.runtime.library.cartesianproduct;
 
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import org.junit.Test;
 
 import java.util.List;

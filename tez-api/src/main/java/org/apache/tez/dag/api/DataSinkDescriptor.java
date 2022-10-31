@@ -28,7 +28,7 @@ import javax.annotation.Nullable;
 import org.apache.hadoop.classification.InterfaceAudience.Public;
 import org.apache.hadoop.security.Credentials;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 /**
  * Defines the output and output committer for a data sink 

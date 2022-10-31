@@ -1,6 +1,6 @@
 package org.apache.tez.runtime.library.common.shuffle;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
 
 import org.apache.hadoop.conf.Configurable;

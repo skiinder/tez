@@ -24,7 +24,7 @@ import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
 
-import com.google.common.base.Charsets;
+import org.apache.hadoop.thirdparty.com.google.common.base.Charsets;
 import org.apache.tez.common.ProgressHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

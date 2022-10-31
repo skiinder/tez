@@ -111,8 +111,8 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.google.common.collect.Maps;
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 
 public class TestMockDAGAppMaster {
   private static final Log LOG = LogFactory.getLog(TestMockDAGAppMaster.class);

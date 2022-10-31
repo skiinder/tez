@@ -34,7 +34,7 @@ import org.apache.tez.runtime.api.impl.TezEvent;
 import org.apache.tez.runtime.api.impl.TezUmbilical;
 import org.apache.tez.runtime.metrics.TaskCounterUpdater;
 
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 public abstract class RuntimeTask {
 

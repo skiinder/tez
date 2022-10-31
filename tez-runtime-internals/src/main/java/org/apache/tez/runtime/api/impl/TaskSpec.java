@@ -34,7 +34,7 @@ import org.apache.tez.dag.records.TaskAttemptIDAware;
 import org.apache.tez.dag.records.TezTaskAttemptID;
 import org.apache.tez.util.StringInterner;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 public class TaskSpec implements Writable, TaskAttemptIDAware {
 

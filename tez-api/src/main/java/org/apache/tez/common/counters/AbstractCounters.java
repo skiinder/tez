@@ -38,9 +38,9 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableUtils;
 
-import com.google.common.collect.Iterables;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterables;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 /**
  * An abstract class to provide common implementation for the Counters

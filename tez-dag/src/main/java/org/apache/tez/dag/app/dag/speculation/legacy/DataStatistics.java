@@ -18,7 +18,7 @@
 
 package org.apache.tez.dag.app.dag.speculation.legacy;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 public class DataStatistics {
   /**

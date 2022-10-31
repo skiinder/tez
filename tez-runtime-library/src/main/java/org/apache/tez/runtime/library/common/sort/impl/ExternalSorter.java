@@ -26,8 +26,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 import org.apache.tez.runtime.api.Event;
 import org.apache.tez.runtime.api.OutputStatisticsReporter;
 import org.apache.tez.runtime.library.api.IOInterruptedException;

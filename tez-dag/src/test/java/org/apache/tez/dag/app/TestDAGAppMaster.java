@@ -41,9 +41,9 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.BiMap;
-import com.google.common.collect.HashBiMap;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.BiMap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.HashBiMap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import com.google.protobuf.ByteString;
 
 import org.apache.hadoop.conf.Configuration;

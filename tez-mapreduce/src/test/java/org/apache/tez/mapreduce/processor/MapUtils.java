@@ -68,7 +68,7 @@ import org.apache.tez.runtime.api.impl.TaskSpec;
 import org.apache.tez.runtime.api.impl.TezUmbilical;
 import org.apache.tez.runtime.library.common.shuffle.ShuffleUtils;
 
-import com.google.common.collect.HashMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.HashMultimap;
 
 
 public class MapUtils {

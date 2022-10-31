@@ -75,9 +75,9 @@ import org.apache.tez.runtime.common.resources.ScalingAllocator;
 import org.apache.tez.runtime.task.TaskRunner2Callable;
 import org.junit.Test;
 
-import com.google.common.collect.HashMultimap;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Multimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.HashMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Multimap;
 
 
 public class TestLogicalIOProcessorRuntimeTask {

@@ -65,7 +65,7 @@ import org.apache.tez.runtime.library.input.ConcatenatedMergedKeyValuesInput;
 import org.apache.tez.runtime.library.partitioner.HashPartitioner;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 public class UnionExample {
 

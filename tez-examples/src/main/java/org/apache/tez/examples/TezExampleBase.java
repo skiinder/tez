@@ -24,8 +24,8 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Set;
 
-import com.google.common.annotations.VisibleForTesting;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 import org.apache.commons.cli.Options;
 import org.apache.hadoop.yarn.api.records.ApplicationId;

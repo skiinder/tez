@@ -27,7 +27,7 @@ import java.nio.ByteBuffer;
 import java.util.Iterator;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 import org.apache.hadoop.io.BoundedByteArrayOutputStream;
 import org.apache.tez.runtime.library.common.task.local.output.TezTaskOutput;

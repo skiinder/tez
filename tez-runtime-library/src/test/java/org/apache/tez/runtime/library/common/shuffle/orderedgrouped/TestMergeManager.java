@@ -34,7 +34,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.UUID;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 
 import org.apache.hadoop.io.serializer.WritableSerialization;
 import org.slf4j.Logger;

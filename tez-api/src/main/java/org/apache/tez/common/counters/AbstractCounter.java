@@ -18,7 +18,7 @@
 
 package org.apache.tez.common.counters;
 
-import com.google.common.base.Objects;
+import org.apache.hadoop.thirdparty.com.google.common.base.Objects;
 import org.apache.hadoop.classification.InterfaceAudience;
 
 /**

@@ -28,8 +28,8 @@ import org.apache.hadoop.classification.InterfaceStability;
 
 import org.apache.tez.util.FastNumberFormat;
 
-import com.google.common.collect.Interner;
-import com.google.common.collect.Interners;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interner;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interners;
 
 /**
  * TezVertexID represents the immutable and unique identifier for

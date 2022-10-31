@@ -29,7 +29,7 @@ import org.apache.hadoop.classification.InterfaceStability.Unstable;
 import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.util.ClassUtil;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 @Private
 @Unstable

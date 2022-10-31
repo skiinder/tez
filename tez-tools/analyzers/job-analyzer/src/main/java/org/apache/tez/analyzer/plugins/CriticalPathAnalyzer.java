@@ -41,11 +41,11 @@ import org.apache.tez.history.parser.datamodel.VertexInfo;
 import org.apache.tez.history.parser.datamodel.TaskAttemptInfo.DataDependencyEvent;
 import org.apache.tez.history.parser.datamodel.TaskInfo;
 
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 import org.apache.tez.common.Preconditions;
-import com.google.common.base.Strings;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

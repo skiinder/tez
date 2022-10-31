@@ -51,7 +51,7 @@ import org.apache.tez.dag.api.client.rpc.DAGClientAMProtocolRPC.GetVertexStatusR
 import org.apache.tez.dag.api.client.rpc.DAGClientAMProtocolRPC.GetWebUIAddressRequestProto;
 import org.apache.tez.dag.api.client.rpc.DAGClientAMProtocolRPC.TryKillDAGRequestProto;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import com.google.protobuf.ServiceException;
 
 @Private

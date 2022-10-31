@@ -18,11 +18,11 @@
 
 package org.apache.tez.analyzer;
 
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 import org.apache.tez.common.Preconditions;
-import com.google.common.base.Strings;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 import org.apache.tez.dag.api.TezException;
 
 import java.io.BufferedWriter;

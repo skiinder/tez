@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 import com.google.protobuf.CodedInputStream;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -80,7 +80,7 @@ import org.apache.tez.runtime.api.events.DataMovementEvent;
 import org.apache.tez.runtime.api.impl.TezEvent;
 import org.junit.*;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;

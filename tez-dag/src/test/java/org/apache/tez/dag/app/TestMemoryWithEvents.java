@@ -53,7 +53,7 @@ import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
 
 // The objective of these tests is to make sure the large job simulations pass 
 // within the memory limits set by the junit tests (1GB)

@@ -18,7 +18,7 @@
 
 package org.apache.tez.dag.api;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import java.nio.ByteBuffer;
 import javax.annotation.Nullable;
 

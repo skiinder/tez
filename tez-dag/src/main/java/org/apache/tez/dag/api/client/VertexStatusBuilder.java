@@ -20,7 +20,7 @@ package org.apache.tez.dag.api.client;
 
 import java.util.List;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import org.apache.tez.common.counters.TezCounters;
 import org.apache.tez.dag.api.DagTypeConverters;
 import org.apache.tez.dag.api.records.DAGProtos.VertexStatusProto;

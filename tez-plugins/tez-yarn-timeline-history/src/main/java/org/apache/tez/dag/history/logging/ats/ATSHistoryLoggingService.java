@@ -54,7 +54,7 @@ import org.apache.tez.dag.history.events.DAGSubmittedEvent;
 import org.apache.tez.dag.history.logging.HistoryLoggingService;
 import org.apache.tez.dag.records.TezDAGID;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 
 public class ATSHistoryLoggingService extends HistoryLoggingService {
 

@@ -18,7 +18,7 @@
 
 package org.apache.tez.tools;
 
-import com.google.common.base.Objects;
+import org.apache.hadoop.thirdparty.com.google.common.base.Objects;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.InputFormat;
 import org.apache.hadoop.mapreduce.InputSplit;

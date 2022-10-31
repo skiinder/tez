@@ -17,8 +17,8 @@
  */
 package org.apache.tez.runtime.library.cartesianproduct;
 
-import com.google.common.math.LongMath;
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.math.LongMath;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import com.google.protobuf.ByteString;
 import org.apache.tez.dag.api.EdgeProperty;
 import org.apache.tez.dag.api.UserPayload;

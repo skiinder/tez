@@ -28,7 +28,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.google.common.annotations.VisibleForTesting;
+import org.apache.hadoop.thirdparty.com.google.common.annotations.VisibleForTesting;
 import com.google.protobuf.ByteString;
 import org.apache.tez.common.Preconditions;
 import org.apache.commons.lang.StringUtils;

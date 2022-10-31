@@ -29,11 +29,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Objects;
 
-import com.google.common.base.Joiner;
+import org.apache.hadoop.thirdparty.com.google.common.base.Joiner;
 
-import com.google.common.collect.AbstractIterator;
-import com.google.common.collect.Iterators;
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.AbstractIterator;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Iterators;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 import org.apache.hadoop.classification.InterfaceAudience;
 import org.apache.hadoop.io.WritableUtils;

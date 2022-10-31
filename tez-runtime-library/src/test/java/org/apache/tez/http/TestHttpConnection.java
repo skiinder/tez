@@ -18,7 +18,7 @@
 
 package org.apache.tez.http;
 
-import com.google.common.base.Throwables;
+import org.apache.hadoop.thirdparty.com.google.common.base.Throwables;
 import org.apache.tez.http.async.netty.AsyncHttpConnection;
 import org.apache.tez.common.security.JobTokenSecretManager;
 import org.junit.AfterClass;

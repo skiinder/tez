@@ -18,8 +18,8 @@
 
 package org.apache.tez.test.dag;
 
-import com.google.common.collect.Lists;
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Lists;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 
 import java.nio.ByteBuffer;
 

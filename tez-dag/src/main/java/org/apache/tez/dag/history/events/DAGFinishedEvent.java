@@ -38,7 +38,7 @@ import org.apache.tez.dag.recovery.records.RecoveryProtos;
 import org.apache.tez.dag.recovery.records.RecoveryProtos.DAGFinishedProto;
 import org.apache.tez.dag.recovery.records.RecoveryProtos.SummaryEventProto;
 
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 import com.google.protobuf.ByteString;
 
 public class DAGFinishedEvent implements HistoryEvent, SummaryEvent, DAGIDAware {

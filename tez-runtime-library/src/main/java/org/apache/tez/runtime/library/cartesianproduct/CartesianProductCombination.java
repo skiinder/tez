@@ -18,7 +18,7 @@
 package org.apache.tez.runtime.library.cartesianproduct;
 
 import org.apache.tez.common.Preconditions;
-import com.google.common.primitives.Ints;
+import org.apache.hadoop.thirdparty.com.google.common.primitives.Ints;
 
 import java.util.Arrays;
 import java.util.Collections;

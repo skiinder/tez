@@ -27,7 +27,7 @@ import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.security.Credentials;
 import org.apache.tez.runtime.api.impl.TaskSpec;
 
-import com.google.common.collect.Maps;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Maps;
 
 public class ContainerTask implements Writable {
 

@@ -14,8 +14,8 @@
 
 package org.apache.tez.util;
 
-import com.google.common.collect.Interner;
-import com.google.common.collect.Interners;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interner;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Interners;
 
 /**
  * A class to replace the {@code String.intern()}. The {@code String.intern()}

@@ -30,8 +30,8 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.tez.client.TezClientUtils;
 import org.apache.tez.dag.api.TezConfiguration;
 
-import com.google.common.base.Splitter;
-import com.google.common.base.Strings;
+import org.apache.hadoop.thirdparty.com.google.common.base.Splitter;
+import org.apache.hadoop.thirdparty.com.google.common.base.Strings;
 
 /**
  * Placeholder to store additional launch command options to be specified for specific tasks in

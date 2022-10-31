@@ -103,9 +103,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import com.google.common.collect.LinkedListMultimap;
-import com.google.common.collect.Multimap;
-import com.google.common.collect.Sets;
+import org.apache.hadoop.thirdparty.com.google.common.collect.LinkedListMultimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Multimap;
+import org.apache.hadoop.thirdparty.com.google.common.collect.Sets;
 import org.mockito.ArgumentCaptor;
 import org.mockito.stubbing.Answer;
 

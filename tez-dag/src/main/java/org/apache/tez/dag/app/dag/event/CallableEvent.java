@@ -22,7 +22,7 @@ import java.util.concurrent.Callable;
 
 import org.apache.tez.common.TezAbstractEvent;
 
-import com.google.common.util.concurrent.FutureCallback;
+import org.apache.hadoop.thirdparty.com.google.common.util.concurrent.FutureCallback;
 
 public abstract class CallableEvent extends TezAbstractEvent<CallableEventType> implements
     Callable<Void> {
