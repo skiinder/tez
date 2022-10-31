@@ -1,0 +1,39 @@
+name: Tez Release
+on:
+  push:
+
+env:
+  MVN_VERSION: '3.6.3'
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Detect tez version
+        run: echo "TEZ_VERSION=$(cat pom.xml | grep '^  <version>' | sed 's/.*>\(.*\)<.*/\1/')" >>$GITHUB_ENV
+      - name: Set up JDK 8
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '8'
+          cache: maven
+          architecture: x64
+      - name: Build Tez
+        run: mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true
+      - name: Upload Package
+        uses: actions/upload-artifact@v3
+        with:
+          name: tez-${{ env.TEZ_VERSION }}
+          path: tez-dist/target/*.tar.gz
+      - name: Create release
+        if: github.ref_name == 'atguigu_modification'
+        uses: ncipollo/release-action@v1.11.1
+        with:
+          name: tez-${{ env.TEZ_VERSION }}
+          allowUpdates: true
+          replacesArtifacts: true
+          commit: atguigu_modification
+          tag: ${{ env.TEZ_VERSION }}
+          artifacts: tez-dist/target/*.tar.gz
